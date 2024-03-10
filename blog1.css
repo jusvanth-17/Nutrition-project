@@ -1,0 +1,223 @@
+.head{
+    border: 2px solid black;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #4942E4;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.con1{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+h1{
+    font-size: 30px;
+    padding-left: 1px;
+    font-weight:700;
+
+}
+.con2{
+    display: flex;
+    /* padding: 10px; */
+    align-items: center;
+    font-size: large;
+}
+ul{
+    display: flex;
+}
+li{
+    font-size: 15px;
+    font-weight: bolder;
+    list-style: none;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #FED9ED;
+}
+.img1{
+    height: 100px;
+    width: 100px;;
+    border-radius: 150px;
+    align-items: center;
+}
+.conb{
+    border: 2px solid black;
+    display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+.c1{
+    border: 2px solid black;
+    padding: 180px;
+    background-image: url(fruitb.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+}
+.c2{
+    border: 2px solid black;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    width: 8000px;
+    text-align: center;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+    font-size: 20px;
+}
+
+.conb1{
+    border: 2px solid black;
+    display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+.c3{
+    border: 2px solid black;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    width: 8000px;
+    text-align: center;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+    font-size: 20px;
+}
+.c4{
+    border: 2px solid black;
+    padding: 180px;
+    background-image: url(vegb2.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.conb3{
+    border: 2px solid black;
+    display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+.c5{
+    border: 2px solid black;
+    padding: 180px;
+    background-image: url(nutsb.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+}
+.c6{
+    border: 2px solid black;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    width: 8000px;
+    text-align: center;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+    font-size: 20px;
+}
+
+.conb4{
+    border: 2px solid black;
+    display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+.c7{
+    border: 2px solid black;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    width: 8000px;
+    text-align: center;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+    font-size: 20px;
+}
+.c8{
+    border: 2px solid black;
+    padding: 180px;
+    background-image: url(meatb.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+}
+.bh1{
+    text-decoration: underline;
+    color: black;
+}
+a{
+text-decoration: none;
+color: black;
+}
+.footer{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    /* align-content: space-evenly; */
+    /* padding: 1px; */
+}
+.foot1{
+    padding: 5px;
+    background-color: aliceblue;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+footer{
+    border: 2px solid black;
+    text-align: center;
+    background-color: blue;
+}
+#bf{
+    color: aliceblue;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.c1:hover .text {
+    opacity: 1;
+    color: white;
+}
+#apaeg{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+  }
+.c4:hover .text {
+    opacity: 1;
+    color: white;
+    font-weight: bolder;
+
+}
+.c5:hover .text {
+    opacity: 1;
+    color: white;
+    font-weight: bolder;
+
+}
+.c8:hover .text {
+    opacity: 1;
+    color: white;
+    font-weight: bolder;
+}

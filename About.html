@@ -4,6 +4,9 @@
         <link rel="Stylesheet"href="taskl2.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Ff0BgPeETjJncc12IJUq+ZkLr4IB8r8gj0fLfI+bdv7PBbO1N9cc5tfcXaf5MIrw" crossorigin="anonymous">
          <style>
+            *{
+                font-family: sans-serif;
+            }
 .a{
     padding:200px;
     font-size:20px;
@@ -40,7 +43,7 @@
     padding:20px;
     font-size:20px;
     word-spacing:5px;
-    background-color:blue;
+    background-color: #4942E4;
     text-align:center;
     font-style:italic;
     padding-top: 0%;
@@ -60,7 +63,7 @@ img{
     display: flex;
     position: sticky;
     top: 0;
-    background-color: blue;
+    background-color: #4942E4;
     justify-content: space-between;
     align-items: center;
 }
@@ -107,9 +110,32 @@ a:hover{
 body{
     background-color: aliceblue;
 }
+
+.footer{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    /* align-content: space-evenly; */
+    /* padding: 1px; */
+}
+.foot1{
+    padding: 5px;
+    background-color: aliceblue;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+footer{
+    border: 2px solid black;
+    text-align: center;
+    background-color: blue;
+}
+#bf{
+    color: aliceblue;
+}
          </style>
     </head>
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <body>
         <header class="head">
             <div class="con1">
@@ -120,9 +146,9 @@ body{
                 <ul>
                     <li><a href="Home.html"> Home </a></li>
                     <li><a href="food.html"> Food </a></li>
-                    <li><a href="blog.html"> Blog </a></li>
+                    <li><a href="blog1.html"> Blog </a></li>
                     <li><a href="About.html"> About </a></li>
-                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="">Log In</a></li>
                 </ul>
             </div>
         </header>
@@ -159,19 +185,17 @@ body{
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, nisi, voluptas aperiam, odio voluptatibus sapiente ab laborum sunt officia velit quam consequatur repellat sed ducimus inventore porro accusamus mollitia laboriosam.
 </p>
 </section>
-</br>
-<section class="d"><h2>contact us</h2>
-    <br>
-    <img src="facebook.png" height="40" width="40">
+</br><br>
 
-    <img src="twitter.png" height="=40" width="40">
-    <img src="youtube.png" height="40" width="40">
-    <img src="instagram.png" height="40" width="40">
-    <br>
-    <br>
-    <p>All copyright are reserved@2024</p>
-    <br>
-</section>
-<br>
+<footer>
+    <h1 id="bf">Contact us</h1>
+    <div class="footer">
+        <div class="foot1"><i class="fa-brands fa-facebook"></i></div>
+        <div class="foot1"><i class="fa-brands fa-instagram"></i></div>
+        <div class="foot1"><i class="fa-brands fa-twitter"></i></div>
+        <div class="foot1"><i class="fa-brands fa-youtube"></i></div>
+    </div>
+    <h3 id="bf">All copyright are reserved@2024</h3>
+</footer>
 </body>
 </html>

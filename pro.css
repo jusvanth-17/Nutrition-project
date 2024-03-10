@@ -45,7 +45,7 @@
 .header{
     border: 2px solid black;
     display: flex;
-    background-color:blue ;
+    background-color: #4942E4;
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -104,7 +104,7 @@ a{
     padding:100px;
     font-size:20px;
     word-spacing:5px;
-    background-color:blue;
+    background-color: #4942E4;
     text-align:center;
     font-style:italic;
     padding-top: 0%;
@@ -116,4 +116,10 @@ a{
 
 img{
     padding:8px;
+}
+.img1{
+    height: 100px;
+    width: 100px;;
+    border-radius: 150px;
+    align-items: center;
 }
