@@ -19,6 +19,7 @@ h1{
     font-weight:700;
 
 }
+
 .con2{
     display: flex;
     /* padding: 10px; */
@@ -100,7 +101,7 @@ p{
 
 }
 #p1{
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .d{
@@ -216,7 +217,7 @@ img{
 .foot1{
     padding: 5px;
     background-color: aliceblue;
-    margin-left: 5px;
+    margin-left: 10px;
     border-radius: 50%;
 }
 footer{
