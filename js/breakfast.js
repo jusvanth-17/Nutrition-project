@@ -127,3 +127,17 @@ foodForm.addEventListener("submit", (event) => {
     // Reset form
     foodForm.reset();
 });
+// Function to calculate total calories
+function calculateTotalCalories() {
+    const foodRows = document.querySelectorAll("#foodTable tbody tr");
+    let totalCalories = 0;
+    foodRows.forEach(row => {
+        totalCalories += parseFloat(row.cells[2].textContent);
+    });
+    alert("Total Calories: " + totalCalories);
+}
+
+// Add event listener to the Calculate button
+const calculateButton = document.querySelector("#calculateButton");
+calculateButton.addEventListener("click", calculateTotalCalories);
+

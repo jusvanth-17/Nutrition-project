@@ -1,0 +1,149 @@
+.bh1{
+    text-decoration: underline;
+    color: black;
+}
+a{
+text-decoration: none;
+color: white;
+}
+.footer{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    /* align-content: space-evenly; */
+    /* padding: 1px; */
+}
+.foot1{
+    padding: 5px;
+    background-color: aliceblue;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+footer{
+    border: 2px solid black;
+    text-align: center;
+    background-color: #2192FF;
+}
+#bf{
+    color: aliceblue;
+}
+.head{
+    border: 2px solid black;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #4942E4;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.con1{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+h1{
+    font-size: 30px;
+    padding-left: 1px;
+    font-weight:700;
+
+}
+#h1{
+    font-size: 30px;
+    padding-left: 1px;
+    font-weight:700;
+    text-decoration: underline;
+
+}
+.con2{
+    display: flex;
+    /* padding: 10px; */
+    align-items: center;
+    font-size: large;
+}
+ul{
+    display: flex;
+}
+li{
+    font-size: 15px;
+    font-weight: bolder;
+    list-style: none;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}a:hover{
+    text-decoration: underline;
+    color: #FED9ED;
+}
+.img1{
+    height: 100px;
+    width: 100px;;
+    border-radius: 150px;
+    align-items: center;
+}
+
+.gd{
+    border: 2px solid black;
+    height: 1000px;
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
+    place-items: center;
+
+}
+img{
+    height: 150px;
+    width: 100px;
+}
+.gd1{
+    border: 2px solid black;
+    text-align: center;
+}
+.p1{
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .fruitspage1{
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
+  }
+  *{
+    text-align: center;
+  }

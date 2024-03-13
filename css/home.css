@@ -210,7 +210,7 @@ img{
     /* text-align: center; */
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color:  #2192FF;
     /* align-content: space-evenly; */
     /* padding: 1px; */
 }
@@ -223,7 +223,7 @@ img{
 footer{
     border: 2px solid black;
     text-align: center;
-    background-color: blue;
+    background-color:  #2192FF;
 }
 #bf{
     color: aliceblue;
